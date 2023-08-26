@@ -1,0 +1,48 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.btn-xs {
+    --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .65rem;
+}
+.form-check-input-md {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+.mr-4 {
+    margin-right: 2rem;
+}
+.mr-1 {
+    margin-right: 0.15rem;
+}
+.ml-1 {
+    margin-left: 0.15rem;
+}
+.mb-1 {
+    margin-bottom: 0.15rem;
+}
+.p-1 {
+    padding: 0.4rem;
+}
+.mt-6 {
+    margin-top: 1.8rem;
+}
+.form-select-xs {
+    padding-top: 0.20rem;
+    padding-bottom: 0.20rem;
+    padding-left: 0.4rem;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+}
+.max-table-wrapper-1 {
+    max-height: 20rem;
+    overflow-y: auto;
+}
